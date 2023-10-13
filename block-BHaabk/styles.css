@@ -57,7 +57,6 @@ table {
     max-width: 1200px;
     margin:0 auto;
     padding:0 32px;
-    display:flex;
 }
 .clearfix::before,
 .clearfix::after{
@@ -71,3 +70,57 @@ table {
     width:100px;
     height:100px;
 }
+.header{
+    background-color: navy;
+    padding:30px 0;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+}
+a{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 26px;
+}
+.article{
+    padding: 40px;
+    background-color: aliceblue;
+    justify-content: space-between;
+}
+.heading-one{
+    font-size: 30px;
+    color:blue;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.paragraph{
+    font-size: 20px;
+    color:black;
+    line-height: 1.5;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.col-01{
+    width:30%;
+    margin:1.5%;
+}
+.gallery-section{
+    background-color:lightgreen;
+}
+.image{
+    height:300px;
+    width:300px;
+    border-radius: 6px;
+}
+.footer{
+    background-color: navy;
+    padding:40px;
+}
+.icon{
+    text-align: center;
+}
+
