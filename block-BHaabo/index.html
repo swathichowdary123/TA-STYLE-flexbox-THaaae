@@ -1,0 +1,81 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d405d01f67.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+            <a href="#">
+                <img class="brand" src="data:image/png;base64,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" alt="logo">
+            </a>
+            <nav class="nav">
+                <a href="#">
+                    <img src="assets/icons/bell.svg" alt="bell icon">
+                </a>
+                <a href="#">SarahJone</a>
+                <a href="#">
+                    <img src="assets/icons/user.svg" alt="user icon">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section">
+            <aside>
+                <div class="container">
+                   <div class="col">
+                    <img src="assets/icons/dashboard.svg" alt="dashboard">
+                    <p class="text">dashboard</p>
+                   </div> 
+                   <div class="col article-img">
+                    <img src="assets/icons/article.svg" alt="article">
+                    <p class="text">articles</p>
+                   </div> 
+                   <div class="col">
+                    <img src="assets/icons/analytics.svg" alt="analytics">
+                    <p class="text">analytics</p>
+                   </div> 
+                   <div class="col">
+                    <img src="assets/icons/inbox.svg" alt="inbox">
+                    <p class="text">inbox</p>
+                   </div> 
+                   <div class="col">
+                    <img src="assets/icons/setting.svg" alt="settings">
+                    <p class="text">settings</p>
+                   </div> 
+                   <div class="col btn">
+                    <img src="assets/icons/log-out.svg" alt="logout">
+                    <p class="text">logout</p>
+                   </div>
+                </div>
+            </aside>
+            <div class="container">
+                <div class="home">
+                    <img src="assets/01.png" alt="punch today in the ace">
+                    <h2 class="heading-two">why we are doing altcampus?</h2>
+                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex id consectetur at eos eius assumenda officiis, sint, soluta dolores vel voluptatem aperiam eligendi impedit ad cumque voluptate expedita nesciunt qui.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem veritatis iure dolore, 
+                    </p>
+                    <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo suscipit molestias commodi reprehenderit temporibus, asperiores voluptate nulla aspernatur exercitationem. Deserunt accusamus non, odio distinctio et ex? Tempora debitis commodi fugiat?
+                        lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo suscipit molestias commodi reprehenderit temporibus, asperiores voluptate
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+         </section>
+          </main>
+</body>
+</html>
