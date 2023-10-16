@@ -25,57 +25,62 @@
                 <a href="#">
                     <img src="assets/icons/bell.svg" alt="bell icon">
                 </a>
-                <a href="#">SarahJone</a>
                 <a href="#">
+                    <span>Sarah Jone</span>
                     <img src="assets/icons/user.svg" alt="user icon">
                 </a>
             </nav>
         </div>
     </header>
-    <main>
-        <section class="section">
-            <aside>
-                <div class="container">
-                   <div class="col">
+    <main class="container flex padding">
+        <aside class="sidebar">
+             <nav class="sidebar-nav">
+                <a href="#">
                     <img src="assets/icons/dashboard.svg" alt="dashboard">
-                    <p class="text">dashboard</p>
-                   </div> 
-                   <div class="col article-img">
-                    <img src="assets/icons/article.svg" alt="article">
-                    <p class="text">articles</p>
-                   </div> 
-                   <div class="col">
-                    <img src="assets/icons/analytics.svg" alt="analytics">
-                    <p class="text">analytics</p>
-                   </div> 
-                   <div class="col">
-                    <img src="assets/icons/inbox.svg" alt="inbox">
-                    <p class="text">inbox</p>
-                   </div> 
-                   <div class="col">
-                    <img src="assets/icons/setting.svg" alt="settings">
-                    <p class="text">settings</p>
-                   </div> 
-                   <div class="col btn">
-                    <img src="assets/icons/log-out.svg" alt="logout">
-                    <p class="text">logout</p>
-                   </div>
-                </div>
-            </aside>
-            <div class="container">
-                <div class="home">
-                    <img src="assets/01.png" alt="punch today in the ace">
-                    <h2 class="heading-two">why we are doing altcampus?</h2>
-                    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex id consectetur at eos eius assumenda officiis, sint, soluta dolores vel voluptatem aperiam eligendi impedit ad cumque voluptate expedita nesciunt qui.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem veritatis iure dolore, 
-                    </p>
-                    <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo suscipit molestias commodi reprehenderit temporibus, asperiores voluptate nulla aspernatur exercitationem. Deserunt accusamus non, odio distinctio et ex? Tempora debitis commodi fugiat?
-                        lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo suscipit molestias commodi reprehenderit temporibus, asperiores voluptate
-                    </p>
-                    <a href="#">Read More</a>
-                </div>
+                    <span>Dashboard</span>
+                </a>
+                <a class="active" href="#">
+                    <img src="assets/icons/article.svg" alt="dashboard">
+                    <span>Articles</span>
+                </a>
+                <a href="#">
+                    <img src="assets/icons/analytics.svg" alt="dashboard">
+                    <span>Analytics</span>
+                </a>
+                <a href="#">
+                    <img src="assets/icons/inbox.svg" alt="dashboard">
+                    <span>Inbox</span>
+                </a>
+                <a href="#">
+                    <img src="assets/icons/setting.svg" alt="dashboard">
+                    <span>Settings</span>
+                </a>
+             </nav>
+             <button class="btn">
+                <img src="assets/icons/log-out.svg" alt="logout">
+                <span>Logout</span>
+             </button>  
+        </aside>
+        <article class="article">
+            <img src="assets/01.png" alt="punch today in the ace">
+            <h2 class="heading-two">why we are doing altcampus?</h2>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex id consectetur at eos eius assumenda officiis, sint, soluta dolores vel voluptatem aperiam eligendi impedit ad cumque voluptate expedita nesciunt qui.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem veritatis iure dolore, 
+            </p>
+            <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo suscipit molestias commodi reprehenderit temporibus, asperiores voluptate nulla aspernatur exercitationem. Deserunt accusamus non, odio distinctio et ex? Tempora debitis commodi fugiat?
+                lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo suscipit molestias commodi reprehenderit temporibus, asperiores voluptate
+            </p>
+            <a class="button" href="#">Read More</a>
+        </article>
+         </main>
+         <footer class="footer">
+            <div class="container flex">
+                <small class="small">&copy;AltCampus</small>
+                <nav>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </nav>
             </div>
-         </section>
-          </main>
+         </footer>
 </body>
 </html>
