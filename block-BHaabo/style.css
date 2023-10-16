@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*custom styles */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 30px;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    background-color: navy;
+    padding:20px;
+}
+.brand{
+    width:150px;
+    height:100px;
+}
+a{
+    margin-left: 32px;
+    color:white;
+    font-size:26px;
+    text-decoration: none;
+}
+.nav a img{
+    vertical-align: middle;
+}
+.nav a span{
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.sidebar{
+    background-color: lightblue;
+    padding:32px;
+    flex:0 1 30%;
+    align-self: stretch;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar-nav{
+    display:flex;
+    flex-direction: column;
+}
+.sidebar-nav a{
+    color:navy;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 16px;
+    border-radius: 4px;
+}
+.sidebar-nav a img{
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.sidebar-nav .active{
+    border:2px solid orangered;
+    color:orangered;
+}
+.padding{
+    padding:60px 32px;
+}
+.btn{
+    border: 0;
+    box-shadow: none;
+    padding: 16px 32px;
+    background-color: white;
+    font-size: 20px;
+    width:100%;
+    border-radius: 4px;
+    text-align: right;
+    color:navy;
+    font-weight: 700;
+}
+.btn img{
+    margin-right: 12px;
+    vertical-align: middle;
+}
+.article{
+    flex:0 1 65%;
+    background-color: #dae3ea;
+    padding:32px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.heading-two{
+    font-size: 36px;
+    color:blue;
+    margin:20px 0;
+}
+.para{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.button{
+    padding:16px 36px;
+    background-color: #30ba66;
+    color:white;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.footer{
+    background-color: navy;
+    padding:32px 0;
+}
+.small{
+    color:white;
+    font-size: 20px;
+}
